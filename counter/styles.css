@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    margin: 40px 200px 0;
+    padding-right: 90px;
+    height: 20px;
+}
+
+
+
+.counter {
+    background-color: bisque;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+.counter-container {
+    max-width: 400px;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.input-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#counter {
+    width: 390px;
+    height: 70px;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 20px;
+    outline: none;
+    border-color: rgba(149, 165, 229, 0.84);
+    border-radius: 7px;
+}
+
+.clear {
+    height: 70px;
+    background-color: white;
+    border: none;
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.buttons button {
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.buttons button.increment {
+    background-color: #4caf50;
+    padding: 30px 100px;
+}
+
+.buttons button.increment:hover {
+    background-color: #45a049;
+}
+
+.buttons button.decrement {
+    background-color: #555;
+    padding: 20px 100px;
+
+}
+
+.buttons button.decrement:hover {
+    background-color: #444;
+}
